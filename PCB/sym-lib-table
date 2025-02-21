@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "UVCLED")(type "KiCad")(uri "${KIPRJMOD}/UVCLED.kicad_sym")(options "")(descr ""))
+  (lib (name "XC6190")(type "KiCad")(uri "${KIPRJMOD}/XC6190.kicad_sym")(options "")(descr ""))
+)
