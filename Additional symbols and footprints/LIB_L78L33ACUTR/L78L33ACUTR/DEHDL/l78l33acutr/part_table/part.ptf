@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'L78L33ACUTR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "STMicroelectronics", "L78L33ACUTR" (!) = "", "LDK320ADU30R", "Other", "511-L78L33ACU", "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/L78L33ACUTR?qs=hDePDv5mxMFi%252BjA%2FaAMQCg%3D%3D", "L78L33ACUTR, Voltage Regulator, 0.1A 3.3 V, +/-5%, 4-Pin SOT-89", "http://www.st.com/web/en/resource/technical/document/datasheet/CD00000446.pdf", "1.6 mm"
+END_PART
+
+END.

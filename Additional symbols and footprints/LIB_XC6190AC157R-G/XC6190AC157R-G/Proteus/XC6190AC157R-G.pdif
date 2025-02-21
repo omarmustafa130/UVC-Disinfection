@@ -1,0 +1,130 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "XC6190AC157R-G"
+   (description "Supervisory Circuits Push Button Reboot Controller")
+   (family "ANA")
+   (package "XC6190AC157RG")
+   (attribute "Datasheet Link" "https://www.torexsemi.com/file/xc6190/XC6190.pdf")
+   (attribute "Geometry.Height" "0.4mm")
+   (attribute "Manufacturer_Name" "Torex")
+   (attribute "Manufacturer_Part_Number" "XC6190AC157R-G")
+   (attribute "Mouser Part Number" "865-XC6190AC157R-G")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Torex-Semiconductor/XC6190AC157R-G?qs=AsjdqWjXhJ%2F4gevzFaWDgw%3D%3D")
+   (attribute "Arrow Part Number" "")
+   (attribute "Arrow Price/Stock" "")
+   (gate
+    (symbol "XC6190AC157R-G")
+    (pin "RSTB" 1 PS)
+    (pin "VSS" 2 PS)
+    (pin "SW1" 3 PS)
+    (pin "VIN" 4 PS)
+    (pin "RT" 5 PS)
+    (pin "SW2" 6 PS)
+   )
+  )
+  (symbol "XC6190AC157R-G"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 900 100) (pt 900 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1100 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1100 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1100 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "XC6190AC157RG"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -0.65 -0.65)
+      (pt 0.65 -0.65)
+      (pt 0.65 0.65)
+      (pt -0.65 0.65)
+      (pt -0.65 -0.65))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.65 1.775)
+      (pt 1.65 1.775)
+      (pt 1.65 -1.775)
+      (pt -1.65 -1.775)
+      (pt -1.65 1.775))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -0.4 -1.1)
+      (arc (pt -0.400 -1.100) (pt -0.450 -1.100) (pt -0.350 -1.000) (start 180.0) (sweep -90.0))
+      (pt -0.4 -1)
+      (arc (pt -0.400 -1.000) (pt -0.450 -1.100) (pt -0.350 -1.000) (start 180.0) (sweep 90.0))
+      (pt -0.4 -1.1)
+      (arc (pt -0.400 -1.100) (pt -0.450 -1.100) (pt -0.350 -1.000) (start 180.0) (sweep -90.0))
+      (pt -0.4 -1))))
+   (leg 1 (pt -0.450 -0.450) (padstack 0))
+   (leg 2 (pt 0.000 -0.450) (padstack 2))
+   (leg 3 (pt 0.450 -0.450) (padstack 0))
+   (leg 4 (pt 0.450 0.450) (padstack 0))
+   (leg 5 (pt 0.000 0.450) (padstack 5))
+   (leg 6 (pt -0.450 0.450) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.250 0.650 0 0 90.000))
+   )
+   (padstack 2
+    (plated false)
+    (pad (layer TCOP) (rectf 0.200 0.650 0 0 90.000))
+   )
+   (padstack 5
+    (plated false)
+    (pad (layer TCOP) (rectf 0.200 0.650 0 0 90.000))
+   )
+   (model "XC6190AC157R-G.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

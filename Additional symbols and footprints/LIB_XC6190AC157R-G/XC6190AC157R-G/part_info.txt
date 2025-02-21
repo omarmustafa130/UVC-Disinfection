@@ -1,0 +1,9 @@
+Manufacturer=Torex
+PartNumber=XC6190AC157R-G
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=6
+Version=1.2
+Released=2022-02-09 15:21:19
+Downloaded=2025-02-19 16:52:53
+3D=Y

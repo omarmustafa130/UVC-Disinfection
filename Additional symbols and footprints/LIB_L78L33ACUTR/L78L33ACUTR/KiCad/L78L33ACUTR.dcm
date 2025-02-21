@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP L78L33ACUTR
+D L78L33ACUTR, Voltage Regulator, 0.1A 3.3 V, +/-5%, 4-Pin SOT-89
+K
+F http://www.st.com/web/en/resource/technical/document/datasheet/CD00000446.pdf
+$ENDCMP
+#
+#End Doc Library
