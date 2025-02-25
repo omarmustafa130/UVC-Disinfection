@@ -1,0 +1,9 @@
+Manufacturer=STMicroelectronics
+PartNumber=L78M06CDT-TR
+PartCategory=Integrated Circuit
+PackageCategory=TO-XXX (Inc. DPAK)
+PinCount=3
+Version=2.2
+Released=2015-07-12 18:13:02
+Downloaded=2025-02-23 15:02:20
+3D=Y

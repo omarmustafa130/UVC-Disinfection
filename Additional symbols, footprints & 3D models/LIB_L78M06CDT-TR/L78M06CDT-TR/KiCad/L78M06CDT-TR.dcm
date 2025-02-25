@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP L78M06CDT-TR
+D L78M06CDT-TR, Voltage Regulator, 0.5A 6 V, 3-Pin D-PAK
+K
+F http://www.st.com/web/en/resource/technical/document/datasheet/CD00000447.pdf
+$ENDCMP
+#
+#End Doc Library

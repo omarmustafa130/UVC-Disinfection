@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "LDK320ADU30R"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "LDK320ADU30R")
+        (spec "default")
+    )
+)

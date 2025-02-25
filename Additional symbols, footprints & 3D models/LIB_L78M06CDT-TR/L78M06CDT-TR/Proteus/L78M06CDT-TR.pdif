@@ -1,0 +1,154 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "L78M06CDT-TR"
+   (description "L78M06CDT-TR, Voltage Regulator, 0.5A 6 V, 3-Pin D-PAK")
+   (family "ANA")
+   (package "TO228P972X240-3N")
+   (attribute "Datasheet Link" "http://www.st.com/web/en/resource/technical/document/datasheet/CD00000447.pdf")
+   (attribute "Geometry.Height" "2.4mm")
+   (attribute "Mouser Part Number" "511-L78M06CDT-TR")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/L78M06CDT-TR?qs=JIXmGdi%252BcuJqxLiiJI11Xw%3D%3D")
+   (attribute "Manufacturer_Name" "STMicroelectronics")
+   (attribute "Manufacturer_Part_Number" "L78M06CDT-TR")
+   (gate
+    (symbol "L78M06CDT-TR")
+    (pin "INPUT" 1 IP)
+    (pin "OUTPUT" 3 PP)
+    (pin "GND_(THERMALPAD)" 4 PP)
+   )
+  )
+  (symbol "L78M06CDT-TR"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1600 100) (pt 1600 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1800 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "TO228P972X240-3N"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.001)
+     (path
+      (closed true)
+      (pt -2.088 -3.3)
+      (pt 4.112 -3.3)
+      (pt 4.112 3.3)
+      (pt -2.088 3.3)
+      (pt -2.088 -3.3))))
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -5.65 -3.55)
+      (pt 5.65 -3.55)
+      (pt 5.65 3.55)
+      (pt -5.65 3.55)
+      (pt -5.65 -3.55))))
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (circle
+      (pt -0.35 0) (pt 0.35 0)
+     )
+    )
+   )
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed false)
+      (pt 0 -0.5)
+      (pt 0 0.5))))
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed false)
+      (pt -0.5 0)
+      (pt 0.5 0))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.037 -3.25)
+      (pt 4.062 -3.25)
+      (pt 4.062 3.25)
+      (pt -2.037 3.25)
+      (pt -2.037 -3.25))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 4.062 -2.35)
+      (pt 4.326 -2.35)
+      (pt 4.863 -1.756)
+      (pt 4.863 1.756)
+      (pt 4.327 2.35)
+      (pt 4.063 2.35))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -0.85 -3.25)
+      (pt -2.95 -3.25)
+      (pt -2.95 3.25)
+      (pt -0.85 3.25))))
+   (layer TSLK
+    (graphic
+     (stroke 0.25)
+     (circle
+      (pt -5.275 3.3) (pt -5.025 3.3)
+     )
+    )
+   )
+   (leg 1 (pt -4.35 2.28) (padstack 0))
+   (leg 3 (pt -4.35 -2.28) (padstack 0))
+   (leg 4 (pt 2.45 0) (padstack 3))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 1 2.1 0 0 0))
+   )
+   (padstack 3
+    (plated false)
+    (pad (layer TCOP) (rectf 4.9 5.85 0 0 0))
+   )
+   (model "L78M06CDT-TR.stp"
+    (euler 0 0 -90)
+    (offset 1.190000057220459 0 0)
+   )
+  )
+ )
+)

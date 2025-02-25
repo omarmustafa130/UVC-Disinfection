@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "L78M06CDT-TR"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2022-12-26-10:38:00)
+    (mountForm default
+        (footprintRef "TO228P972X240-3N")
+        (spec "System")
+    )
+)

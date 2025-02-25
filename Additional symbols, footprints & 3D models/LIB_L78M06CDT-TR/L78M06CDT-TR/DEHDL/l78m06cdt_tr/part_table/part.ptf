@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'L78M06CDT_TR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "STMicroelectronics", "L78M06CDT-TR" (!) = "", "TO228P972X240-3N", "TO-XXX (Inc. DPAK)", "511-L78M06CDT-TR", "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/L78M06CDT-TR?qs=JIXmGdi%252BcuJqxLiiJI11Xw%3D%3D", "L78M06CDT-TR, Voltage Regulator, 0.5A 6 V, 3-Pin D-PAK", "http://www.st.com/web/en/resource/technical/document/datasheet/CD00000447.pdf", "2.4 mm"
+END_PART
+
+END.

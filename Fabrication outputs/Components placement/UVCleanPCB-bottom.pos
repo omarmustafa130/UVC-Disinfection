@@ -1,0 +1,35 @@
+### Footprint positions - created on 2025-02-24T18:35:52+0200 ###
+### Printed by KiCad version 8.0.5
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val              Package                                     PosX       PosY       Rot  Side
+C5        10u              C_0603_1608Metric                       207.7600   -66.3650   90.0000  bottom
+C6        1u               C_0402_1005Metric                       205.8100   -74.6100    0.0000  bottom
+C8        1u               C_0402_1005Metric                       207.8700   -74.5900    0.0000  bottom
+C11       4.7u             C_0402_1005Metric                       207.5400   -64.1200  180.0000  bottom
+C16       330n             C_0603_1608Metric                       188.6250   -80.6000  180.0000  bottom
+C17       100n             C_0603_1608Metric                       198.3250   -80.7000    0.0000  bottom
+C18       5u               C_0805_2012Metric                       177.6500   -75.5500  180.0000  bottom
+D6        LED              LED_0402_1005Metric                     204.4000   -65.2000  180.0000  bottom
+D7        SS14             D_SMA                                   194.1900   -75.4700    0.0000  bottom
+D8        LED              LED_0603_1608Metric                     203.7125   -80.7000  180.0000  bottom
+FB1       120R             L_0603_1608Metric                       207.5000   -77.3000   90.0000  bottom
+IC2       L78M06CDT-TR     TO228P972X240-3N                        202.0300   -70.8000    0.0000  bottom
+J3        Conn_01x02_Pin   JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical   201.1000   -77.8000    0.0000  bottom
+Q2        IRLML2402        SOT-23                                  180.9475   -62.8700    0.0000  bottom
+R2        2k               R_0402_1005Metric                       204.3900   -66.2000    0.0000  bottom
+R5        1k               R_0402_1005Metric                       205.9000   -65.6900  -90.0000  bottom
+R6        100R             R_0402_1005Metric                       201.2900   -80.7000    0.0000  bottom
+R7        600k             R_0603_1608Metric                       189.5000   -74.9750  -90.0000  bottom
+R12       100R             R_0603_1608Metric                       178.7000   -64.5000    0.0000  bottom
+R13       10k              R_0603_1608Metric                       182.9750   -64.5000    0.0000  bottom
+R14       0.5R             R_0603_1608Metric                       189.2200   -68.4000  -90.0000  bottom
+R17       1M               R_0603_1608Metric                       178.2750   -73.8000    0.0000  bottom
+R18       4.7k             R_0402_1005Metric                       179.0200   -66.2100   90.0000  bottom
+R19       4.7k             R_0402_1005Metric                       181.0100   -66.7000    0.0000  bottom
+R20       4.7k             R_0402_1005Metric                       180.9900   -65.7000    0.0000  bottom
+S1        TL3305BF160QG    SW_TL3305BF160QG                        184.0000   -77.1000  180.0000  bottom
+U3        74HC74D_652      SOIC127P600X175-14N                     184.2375   -70.8000   90.0000  bottom
+U4        MCP73831-2-MC    SOT-23-8                                201.3075   -65.8150    0.0000  bottom
+U7        KL265-50W-SM-WD  3535                                    191.9900   -69.6700  180.0000  bottom
+## End

@@ -1,0 +1,70 @@
+(Japanese_coding: sjis)
+(function "ECS_179504"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2015-07-12-18:13:02)
+    (utime 2025-02-12-17:49:57)
+    (interface
+        (port "1" (symbPinId 1) (portType INPUT))
+        (port "3" (symbPinId 2) (portType GROUND))
+        (port "4" (symbPinId 3) (portType GROUND))
+    )
+    (property "symbolName" "L78M06CDT-TR")
+)
+
+
+(pinAssign "ECS_179504"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2015-07-12-18:13:02)
+    (utime 2025-02-12-17:49:57)
+    (interface
+        (port "1" (symbPinId 1) (portName "INPUT") (portType INPUT))
+        (port "3" (symbPinId 2) (portName "OUTPUT") (portType GROUND))
+        (port "4" (symbPinId 3) (portName "GND_(THERMALPAD)") (portType GROUND))
+    )
+    (internal
+        (funcInst (functionRef "ECS_179504")
+                (port "1" (match "1"))
+                (port "3" (match "3"))
+                (port "4" (match "4"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "L78M06CDT-TR")
+)
+
+
+(part "L78M06CDT-TR"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2015-07-12-18:13:02)
+    (utime 2025-02-12-17:49:57)
+    (packageRef "L78M06CDT-TR")
+    (pinAssignRef "ECS_179504")
+    (interface
+        (port "1" (symbPinId 1) (portName "INPUT") (portType INPUT))
+        (port "3" (symbPinId 2) (portName "OUTPUT") (portType GROUND))
+        (port "4" (symbPinId 3) (portName "GND_(THERMALPAD)") (portType GROUND))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "IC")
+    (property "description" "L78M06CDT-TR, Voltage Regulator, 0.5A 6 V, 3-Pin D-PAK")
+    (property "Mouser_Part_Number" "511-L78M06CDT-TR")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/L78M06CDT-TR?qs=JIXmGdi%252BcuJqxLiiJI11Xw%3D%3D")
+    (property "Manufacturer_Name" "STMicroelectronics")
+    (property "Manufacturer_Part_Number" "L78M06CDT-TR")
+    (property "Datasheet_Link" "http://www.st.com/web/en/resource/technical/document/datasheet/CD00000447.pdf")
+    (property "compAreaTopHeight" 2.4)
+)
+
+

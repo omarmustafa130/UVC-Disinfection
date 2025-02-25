@@ -1,0 +1,18 @@
+.XC6190AC157R-G :1 ;Supervisory Circuits Push Button Reboot Controller
+XC6190AC157RG
+*STM IC
+*NGS
+*PLB 1="RSTB" 2="VSS" 3="SW1" 4="VIN" 5="RT" 6="SW2"
+*MXP 6
+*DFN XC6190AC157R-G
+~!Manufacturer_Name (Torex)
+~!Manufacturer_Part_Number (XC6190AC157R-G)
+~!Mouser Part Number (865-XC6190AC157R-G)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Torex-Semiconductor/XC6190AC157R-G?qs=AsjdqWjXhJ%2F4gevzFaWDgw%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://www.torexsemi.com/file/xc6190/XC6190.pdf)
+~!Height (0.4mm)
+~!3D_Model (XC6190AC157R-G)
+XC6190AC157R-G
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 
