@@ -1,4 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "UVCLED")(type "KiCad")(uri "${KIPRJMOD}/UVCLED.kicad_sym")(options "")(descr ""))
-)
