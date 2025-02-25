@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP XC6190AC157R-G
-D Supervisory Circuits Push Button Reboot Controller
-K
-F https://www.torexsemi.com/file/xc6190/XC6190.pdf
-$ENDCMP
-#
-#End Doc Library
