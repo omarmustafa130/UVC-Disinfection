@@ -1,0 +1,6 @@
+../Core/Src/LSM6DS33.c:10:6:LSM6DS33_init	1
+../Core/Src/LSM6DS33.c:50:7:read_data_gyro	4
+../Core/Src/LSM6DS33.c:69:7:read_data_acc	4
+../Core/Src/LSM6DS33.c:88:7:acc_total_vector	1
+../Core/Src/LSM6DS33.c:94:7:angle_pitch_acc	1
+../Core/Src/LSM6DS33.c:101:7:angle_roll_acc	1
