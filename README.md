@@ -1,4 +1,4 @@
-# Hardware & PCB
+# Hardware & PCB -- Scroll down for software part
 The board is very, very compact, at just 21mm x 35mm, designed as a double-layer PCB, and integrates a smart power control system alongside motion-based UVC LED activation, and is able to last +30 days on battery.
 
 The board features:
@@ -23,7 +23,7 @@ Uses a D flip-flop latch circuit with an RC network to ensure accidental presses
 - 4-pin JST connector for ST-LINK interface
 - Two 2-pin JST connector for the batteries and their charger
 
-# Software
+# Software 
 # **STM32 UVC LED Control with Low Power Mode**
 
 ## **Overview**
